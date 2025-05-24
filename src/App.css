@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor-1 {
+  background: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tituloApp {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.entrada {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.entradaUsuario {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.boton {
+  flex: 1;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+.matriz-transicion,
+.resultado {
+  margin-top: 20px;
+}
+
+.leyenda {
+  background-color: #e8f4ff;
+  border-left: 6px solid #007bff;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.leyenda h3 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.leyenda ul{
+  margin: 0;
+  padding-left: 18px;
+  list-style: none;
+}
+
+.leyenda li{
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.resultadoClima {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.itemClima {
+  text-align: center;
+}
+
+.climaImg {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
